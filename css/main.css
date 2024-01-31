@@ -39,6 +39,7 @@ h1 {
     background-color: aliceblue;
     transform: rotate(360deg);
     box-shadow: 0 220px 0 0 rgb(117, 0, 0) inset;
+}
 
 
 
@@ -60,7 +61,7 @@ h1 {
 .sharingan {
     /* existing styles */
 
-    animation: fieryBackground 2s infinite; 
+    animation: fieryBackground 2s infinite; }
 
 
 .sharingan:hover {
@@ -68,3 +69,4 @@ h1 {
     transform: rotate(360deg);
 
     animation: none; 
+}
