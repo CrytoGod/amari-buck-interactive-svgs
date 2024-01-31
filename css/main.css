@@ -1,0 +1,42 @@
+.hidden {
+    display: none;
+
+}
+
+
+h1 {
+    color: red;
+    margin: 30px;
+    padding: 30px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sharingan {
+      height: 400px;
+      width: 400px;
+      margin: 50px;
+      padding: 30px;
+      border-radius: 50px;
+      display: inline-flex;
+      background-color: aliceblue;
+}
+
+#bod{
+    background-color: rgb(1, 1, 112);    
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-blend-mode: multiply;
+ }
+
+ .sharingan {
+    /* existing styles */
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.sharingan:hover {
+    background-color: aliceblue;
+    transform: rotate(360deg);
+    box-shadow: 0 220px 0 0 rgb(117, 0, 0) inset;
+}
