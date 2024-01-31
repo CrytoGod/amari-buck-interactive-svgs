@@ -40,3 +40,26 @@ h1 {
     transform: rotate(360deg);
     box-shadow: 0 220px 0 0 rgb(117, 0, 0) inset;
 }
+
+@keyframes fieryBackground {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: #ff4500; /* Or any other fiery color */
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+.sharingan {
+    /* existing styles */
+    animation: fieryBackground 2s infinite; /* Adjust the duration as needed */
+}
+
+.sharingan:hover {
+    background-color: aliceblue;
+    transform: rotate(360deg);
+    animation: none; /* Disable the fiery background animation on hover */
+}
