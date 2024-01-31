@@ -1,7 +1,7 @@
 //The Window.console property returns a reference to the console object, which provides methods for logging information to the browser's console.
 console.log("JS file connected");
 
-const vectorgraphic= document.querySelector('#badge')
+const vectorgraphic= document.querySelector('#baru_2')
 
 function logThisId() {
     console.log(this);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.49 200.49">
+<svg id="sharingan_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.49 200.49">
   <defs>
     <style>
       .cls-1 {
@@ -31,6 +31,16 @@
         opacity: .56;
       }
     </style>
+         <script>
+    const vectorgraphic= document.querySelector('#sharingan_2')
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorgraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <circle class="cls-4" cx="100.24" cy="100.24" r="99.74"/>

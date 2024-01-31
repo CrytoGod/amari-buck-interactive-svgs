@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.49 203.54">
+<svg id="sasuke_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.49 203.54">
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
@@ -29,6 +29,16 @@
         stroke-width: 4px;
       }
     </style>
+         <script>
+    const vectorgraphic= document.querySelector('#sasuke_2')
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorgraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <circle class="cls-2" cx="100.74" cy="101.77" r="99.74"/>
