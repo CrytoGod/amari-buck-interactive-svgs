@@ -15,6 +15,16 @@
         fill: #be1e2d;
       }
     </style>
+    <script>
+    const vectorgraphic= document.querySelector('#Layer_2')
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorgraphic.addEventListener('click', logThisId);
+    </script>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <circle class="cls-2" cx="100.24" cy="100.24" r="99.74"/>
